@@ -10,7 +10,7 @@ I also want to demonstrate how to add a link for the famous game [APEX LEGENDS](
 
 small change
 
-![Loba From Apex Legends](LobaFromApexLegends.jpg)
+![Image](LobaFromApexLegends.jpg)
 
 > Blockquote
 
