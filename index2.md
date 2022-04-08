@@ -4,6 +4,30 @@
 
 For this example I will demonstrate how to *italicize* something.
 
+Now for something **BOLD**
+
 I also want to demonstrate how to add a link for the famous game [APEX LEGENDS](https://www.ea.com/games/apex-legends)
+
+![Dog](https://www.freeimages.com/photo/dog-1361477)
+
+> Blockquote
+
+* Apples
+* Bananas
+* Kiwis
+
+1. Bloodhound
+2. Loba
+3. Wraith
+
+Horizontal Rule:
+***
+
+`Inline code` with backticks
+
+```
+Man I really want 
+to play Apex Legends
+```
 
 Thank you, GoodBye!
