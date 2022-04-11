@@ -90,6 +90,44 @@ Congrats you have successfully copied and pasted a file from your computer onto 
 
 ## Setting an SSH Key
 
+For these past few step whenever we use a SSH or SCP command we have to copy and paste our password onto the terminal. Computers are all about efficientcy and having to copy and paste your password over and over again is anything but efficient, thus we are going to "ssh keys" with a program called "ssh-keygen".
+
+1. On your computer you are going to open a new terminal and type:
+
+ssh-keygen
+
+(DO NOT add a passphrase)
+
+After completing the first step your terminal should appear like this:
+
+![Image](keygen.png)
+
+2. This step if for Windows users so if you are on MacOS you can skip this step. You will need to do the extra "ssh-add". for more steps access this [website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
+
+3. The public key and private key are currently being stored at the .ssh directory on the client(aka. your computer). We will now copy the **PUBLIC** key onto the .ssh directory of the server. To do so follow the following bullet points in order.
+
+* Log onto the server using the ssh command.
+* Type the following line: mkdir .ssh
+* Type the following line aswell: <logout>
+* Now type this line and make sure to use your account specific username: scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+(A common error is to not put the appropriate client name where it says "<user-name>", for example on my client the name is "gus" so I will type that on the "<user-name>" section.
+
+Once you have completed all those steps you will now be able to use ssh and scp commands without having to type in your password.
+
 
 ## Optimizing Remote Running
 
+Now that you have completed all these steps you are one step closer to being a pro at manipulating the terminal to do whatever you disire but lets learn some quick tips to optimize our efficiency.
+
+1. Type a command within quotation marks while logging into a directory to save a line of space (In the following example I type pwd and log into the server in one line):
+
+![Image](pwd.png)
+
+2. You can also use a ";" semicolon in between commands to type them in one line.
+
+3. You can use the up arrow key on your keyboard recall previous commands put on the terminal.
+
+4. Hit tab when typing the first few letters of a command or directory to auto-finish what you were tying.
+
+There are many more ways to save time and space with little tips and tricks that exist. Now that you have completed this tutorial you can feel a little more confident with your coding skills. **Congrats!!!**
