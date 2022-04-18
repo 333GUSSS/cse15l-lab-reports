@@ -55,7 +55,7 @@ Congrats, you have learned some basic commands to use on the terminal.
 
 Now we are going to learn how to move files from your computer onto there server. 
 
-1. Close your terminal and create a new file on VS Code tittled "WhereAmI.java" and in that file you are going to copy and paste the following contents: 
+1. Close your terminal and create a new file on VS Code titled "WhereAmI.java" and in that file you are going to copy and paste the following contents: 
 
 class WhereAmI {
  public static void main(String[] args) {
@@ -76,7 +76,7 @@ Make sure to add appropriate spacing so that the contents appear in this manner:
 
 scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
 
-4. The terminal will ask for a password, input the came password you put when you log in to the server. 
+4. The terminal will ask for a password, input the same password you put when you log in to the server. 
 
 5. Once you finish step 4 you will need to log into the server using ssh, if you forgot how to log in return to the step titled "Remotely Connecting".
 
@@ -113,7 +113,17 @@ After completing the first step your terminal should appear like this:
 
 (A common error is to not put the appropriate client name where it says "<user-name>", for example on my client the name is "gus" so I will type that on the "<user-name>" section.
 
-Once you have completed all those steps you will now be able to use ssh and scp commands without having to type in your password.
+Here is an example of what it looks like to correctly use the scp command. (credit for the following image goes to my CSE 15L teammate Beneen Fune)
+
+![Image](SCP_partner.png)
+
+Once you have completed all those steps you will now be able to use ssh and scp commands without having to type in your password. 
+
+Here is an example of what logging in looks like without having to type in your password.
+
+![Image](loginWithoutPassword.png)
+
+If you are able to view a screen similar to this when you log in then Congrats you have successfully used your SSH Keys.
 
 
 ## Optimizing Remote Running
