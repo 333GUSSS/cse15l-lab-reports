@@ -2,9 +2,9 @@
 
 ## Repository Links
 
-* [My Repositiory]()
+* [My Repositiory](https://github.com/333GUSSS/markdown-parser)
 
-* [Week 7 Reviwsed Repositiory]()
+* [Week 7 Reviwsed Repositiory](https://github.com/charvishukla/markdown_parser_2)
 
 ## Snippet 1
 * Expected output:
