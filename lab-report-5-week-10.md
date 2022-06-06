@@ -6,6 +6,11 @@
 
 (P.S: I downloaded the required markdown file I am comparing my repo to into my own repo but I put it as a directory called "cse15lsp22-markdown-parser", so whenever I wanted to run test in their repository I moved to that directory using the cd command.)
 
+## Link to My Test Results
+
+[My Results](https://github.com/333GUSSS/markdown-parser/blob/main/MyResults.txt)
+
+
 ## How you found the tests with different results
 
 ![Image](howRunTest.png)
